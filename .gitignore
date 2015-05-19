@@ -15,5 +15,9 @@
 /log/*
 !/log/.keep
 /tmp
+# Ignore the secrets file
 
-/config/credentials.json
+/config/secrets.yml
+
+#Ignore vim swap files
+*.sw*

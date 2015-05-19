@@ -1,1 +1,1 @@
-API = GoogleVoice::Api.new('#insert email', '#insert pass')
+API = GoogleVoice::Api.new(Rails.application.secrets.gmail_addr, Rails.application.secrets.gmail_pw)
